@@ -34,15 +34,14 @@
 <script>
 export default {
   name: "SignIn",
-  data() {
-    return {
-      isDarkMode: true
-    };
+  computed: {
+    isDarkMode() {
+      return this.$store.getters.isDarkMode;
+    }
   },
   methods: {
     toggleDarkMode() {
-      this.isDarkMode = !this.isDarkMode;
-      document.body.style.background = this.isDarkMode ? "#212c4f" : "#f0f3f5";
+      this.$store.commit("toggleDarkMode");
     }
   }
 };
@@ -141,12 +140,5 @@ a {
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   text-decoration: none;
-}
-
-.light-link {
-  color: rgba(255, 255, 255, 0.3);
-}
-.dark-link {
-  color: rgba(0, 0, 0, 0.3);
 }
 </style>
