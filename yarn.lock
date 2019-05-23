@@ -3887,6 +3887,13 @@ globule@^1.0.0:
     lodash "~4.17.10"
     minimatch "~3.0.2"
 
+gotrue-js@^0.9.25:
+  version "0.9.25"
+  resolved "https://registry.npm.taobao.org/gotrue-js/download/gotrue-js-0.9.25.tgz#eb9a3c76a2d08629afcda7872a60924d5d671c6a"
+  integrity sha1-65o8dqLQhimvzaeHKmCSTV1nHGo=
+  dependencies:
+    micro-api-client "^3.2.1"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
   resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
@@ -5148,6 +5155,11 @@ methods@~1.1.2:
   resolved "https://registry.npm.taobao.org/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
+micro-api-client@^3.2.1:
+  version "3.3.0"
+  resolved "https://registry.npm.taobao.org/micro-api-client/download/micro-api-client-3.3.0.tgz#52dd567d322f10faffe63d19d4feeac4e4ffd215"
+  integrity sha1-Ut1WfTIvEPr/5j0Z1P7qxOT/0hU=
+
 micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.8:
   version "3.1.10"
   resolved "https://registry.npm.taobao.org/micromatch/download/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
@@ -5408,6 +5420,11 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.npm.taobao.org/neo-async/download/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha1-rCetpmFn+ohJpq3dg39rGJrSCBw=
+
+netlify-identity-widget@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.npm.taobao.org/netlify-identity-widget/download/netlify-identity-widget-1.5.4.tgz#4e8f61ed6713031116ec3a723534cfc06ee3395b"
+  integrity sha1-To9h7WcTAxEW7DpyNTTPwG7jOVs=
 
 nice-try@^1.0.4:
   version "1.0.5"
