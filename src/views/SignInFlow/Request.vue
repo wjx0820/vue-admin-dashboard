@@ -3,7 +3,7 @@
     class="container"
     :class="{'light-background' : !isDarkMode, 'dark-background' : isDarkMode}"
   >
-    <div class="login">
+    <div class="request">
       <img src="@/assets/DCHQ.svg" v-show="isDarkMode">
       <img src="@/assets/DCHQ-dark.svg" v-show="!isDarkMode">
       <h4 :class="{'light-text' : isDarkMode, 'dark-text' : !isDarkMode}">Request Account</h4>
@@ -35,10 +35,7 @@ export default {
   },
   data() {
     return {
-      email: null,
-      password: null,
-      hasText: false,
-      text: ""
+      email: null
     };
   },
   computed: {
@@ -72,13 +69,6 @@ export default {
           alert("Error: " + error);
         });
     }
-  },
-  mounted() {
-    const params = this.$route.params;
-    if (params.userLoggedOut) {
-      this.hasText = true;
-      this.text = "You have logged out!";
-    }
   }
 };
 </script>
@@ -90,8 +80,12 @@ export default {
   align-items: center;
   min-height: 100vh;
 }
-.login {
+.request {
   width: 400px;
   text-align: center;
 }
 </style>
+
+
+
+
